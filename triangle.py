@@ -2,7 +2,7 @@ import incompleteTriangle
 import hypotenuse
 
 def getTriangle(a, b):
-    # Testing Jenkins 3
+    # Testing Jenkins
     initTriangle = incompleteTriangle.Incompletetriangle(a, b)
     hypo = hypotenuse.Hypotenuse(initTriangle)
     return round(hypo.hypotenuse)
